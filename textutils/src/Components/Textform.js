@@ -23,6 +23,8 @@ export default function Textform(props) {
     <textarea className="form-control" id="exampleFormControlTextarea1" onChange={handletext} value={text} rows="7"></textarea>
     </div>
     <button className='btn btn-primary' onClick={handlebtn}>Convert to Uppercase</button>
+    
+    
  </div>
   )
 }
